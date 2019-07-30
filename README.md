@@ -11,7 +11,7 @@ Approach taken: [JMXProxy](https://tomcat.apache.org/tomcat-8.0-doc/monitoring.h
 
 Initial draft shell script in [file](get_metrics.sh)
 
-## Resources
+## Resources
 
 * [Using the JMX Proxy Servlet](https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Using_the_JMX_Proxy_Servlet)
 * [Configuring Manager Application Access](https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Configuring_Manager_Application_Access)
