@@ -15,4 +15,4 @@ Initial draft shell script in [file](get_metrics.sh)
 
 * [Using the JMX Proxy Servlet](https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Using_the_JMX_Proxy_Servlet)
 * [Configuring Manager Application Access](https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Configuring_Manager_Application_Access)
-* [put-metric-data](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html)
+* [CloudWatch put-metric-data](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-data.html)
