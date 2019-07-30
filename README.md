@@ -9,4 +9,4 @@ Currently we have pools only for [PostgreSQL](https://www.postgresql.org/) and [
 
 Approach taken: [JMXProxy](https://tomcat.apache.org/tomcat-8.0-doc/monitoring.html#Using_the_JMXProxyServlet)
 
-Initial draft shell script in file get_metrics.sh
+Initial draft shell script in [file](get_metrics.sh)
