@@ -1,8 +1,8 @@
 #!/bin/bash
 
 hostname=$(hostname);
-user=waypoint;
-pass=waypoint;
+user=<your_user>;
+pass=<your_pass>;
 
 aws_path=/usr/local/bin/aws;
 aws_region="us-west-1";
