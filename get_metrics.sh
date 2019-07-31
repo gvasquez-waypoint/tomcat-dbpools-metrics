@@ -18,6 +18,7 @@ put_cw_metric() {
 }
 
 get_jmx_val() {
+	clean=-1;
 	jdbcval=$1;
    att=$2;
    val=$(curl -s -u $user:$pass -X GET  http://localhost:8080/manager/jmxproxy --data-urlencode get=Catalina:type=DataSource,class=javax.sql.DataSource,name="${jdbcval}" -d att="${att}" -G);
@@ -27,8 +28,8 @@ get_jmx_val() {
 	   len=${#array[@]};
 	   clean=${array[$((len-1))]};	   
 	   echo "$clean";
-	   return "$clean";
    fi
+   return "$clean";
 }
 
 get_jmx() {
