@@ -47,4 +47,4 @@ while read -r line; do
    jdbc=${tmp//[[:space:]]/};
    get_jmx "$jdbc";
    ##break;
-done < <( curl -s -u $user:$pass -X GET  http://localhost:8080/manager/jmxproxy|grep "Name: Catalina:type=DataSource,class=javax.sql.DataSource,name"|grep -v jmxName|grep -v connectionpool)
+done < <( curl -s -u $user:$pass -X GET  http://localhost:8080/manager/jmxproxy --data-urlencode qry="Catalina:type=DataSource,class=javax.sql.DataSource,name=*"|grep "Name: Catalina:type=DataSource,class=javax.sql.DataSource,name")
